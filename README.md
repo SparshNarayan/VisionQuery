@@ -34,7 +34,7 @@ The system understands both visual content and human language, enabling accurate
 - Supports both **CPU and GPU**
 
 ---
-
+## 🗂️ Project Structure
 NEW FOLDER (2)
 |
 |-- Dataset/
@@ -188,5 +188,5 @@ Hackathon: GEHU Himtal Hackathon
 
 This project is developed for educational and hackathon purposes only.
 
-## 🗂️ Project Structure
+
 
