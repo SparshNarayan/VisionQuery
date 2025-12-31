@@ -1,5 +1,4 @@
-I-Based Image Classification & Text-to-Image Semantic Search
-
+AI-Based Image Classification & Text-to-Image Semantic Search
 Hackathon Domain: AI / Machine Learning
 Hackathon: GEHU Himtal Hackathon
 Team Size: 4
