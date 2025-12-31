@@ -63,15 +63,6 @@ AI_Image_classifier
 
 
 
-
----
-
-## 🔁 System Flow
-
-### 🖼️ Image Classification Flow
-
-
-
 Input Image
 ↓
 Image Preprocessing (224×224)
@@ -203,14 +194,6 @@ Fully original pipeline design
 
 No copied templates or boilerplate projects
 
-👥 Team Information
-
-Team Size: 4
-Hackathon: GEHU Himtal Hackathon
-
-📜 License
-
-This project is developed for educational and hackathon purposes only.
 
 
 
