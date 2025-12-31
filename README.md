@@ -1,68 +1,101 @@
-AI-Based Image Classification & Text-to-Image Semantic Search
-Hackathon Domain: AI / Machine Learning
-Hackathon: GEHU Himtal Hackathon
-Team Size: 4
+# 🧠 AI-Based Image Classification & Text-to-Image Semantic Search
 
-Problem Statement
+**Hackathon Domain:** AI / Machine Learning  
+**Hackathon:** GEHU Himtal Hackathon  
+**Team Size:** 4  
+
+---
+
+## 📌 Problem Statement
 
 Finding relevant images from large datasets using natural language descriptions is still a challenge in many real-world applications such as surveillance, e-commerce, media management, and smart search engines.
 
-Traditional systems rely on tags or metadata, which are often incomplete or inaccurate.
+Traditional image search systems rely heavily on tags or metadata, which are often incomplete, inaccurate, or manually generated.
 
-Solution Overview
+---
 
-This project combines two AI pipelines to build an intelligent multimodal system:
+## 🚀 Solution Overview
 
-Image Classification (Animal vs Person)
+This project builds an intelligent multimodal system by combining two AI pipelines:
 
-Text-to-Image Semantic Search using natural language
+- **Image Classification** (Animal vs Person)
+- **Text-to-Image Semantic Search** using natural language queries
 
-The system understands both visual content and human language.
+The system understands both visual content and human language, enabling accurate and meaningful image retrieval.
 
-Key Features
+---
 
-• Image Classification using MobileNetV2 (Transfer Learning)
-• Text-to-Image Semantic Search using CLIP
-• Zero-shot learning (no retraining required for text queries)
-• Lightweight, modular, and hackathon-ready
-• Works on CPU and GPU
+## ✨ Key Features
 
-Project Structure
+- Image classification using **MobileNetV2 (Transfer Learning)**
+- Text-to-image semantic search using **CLIP**
+- Zero-shot learning (no retraining required for text queries)
+- Lightweight, modular, and hackathon-ready architecture
+- Supports both **CPU and GPU**
+
+---
 
 NEW FOLDER (2)
 |
 |-- Dataset/
-| |-- animal/
-| |-- person/
+| |-- animal/ # Animal images
+| |-- person/ # Person images
 |
-|-- classifier_train.py
-|-- classifier_predict.py
-|-- classifier_model.h5
-|-- labels.txt
+|-- classifier_train.py # Train image classification model
+|-- classifier_predict.py # Predict class from input image
+|-- classifier_model.h5 # Trained MobileNetV2 model
+|-- labels.txt # Class labels (Animal / Person)
 |
-|-- text_image_search.py
-|-- requirements.txt
-|-- README.md
+|-- text_image_search.py # CLIP-based semantic search
+|-- requirements.txt # Project dependencies
+└-- README.md # Project documentation
 
-System Flow
 
-Image Classification Flow
+---
+
+## 🔁 System Flow
+
+### 🖼️ Image Classification Flow
+
+
+
+
+---
+
+## 🔁 System Flow
+
+### 🖼️ Image Classification Flow
+
+
 
 Input Image
-→ Image Preprocessing (224×224)
-→ MobileNetV2 Feature Extractor
-→ Dense + Softmax Layer
-→ Class Prediction with Confidence
+↓
+Image Preprocessing (224×224)
+↓
+MobileNetV2 Feature Extractor
+↓
+Dense + Softmax Layer
+↓
+Class Prediction + Confidence
 
-Text-to-Image Search Flow
+
+### 📝 Text-to-Image Search Flow
+
 
 Text Query
-→ CLIP Text Encoder
-→ CLIP Image Encoder
-→ Cosine Similarity
-→ Best Matching Image
+↓
+CLIP Text Encoder
+↓
+CLIP Image Encoder
+↓
+Cosine Similarity
+↓
+Best Matching Image
 
-High-Level Architecture
+
+---
+
+## 🧩 High-Level Architecture
 
 User
 |
@@ -72,67 +105,88 @@ User
 |-- Text Query → CLIP Model (PyTorch)
 → Output: Best Matching Image
 
-Technologies Used
 
-Image Classification: TensorFlow, Keras
-Model Architecture: MobileNetV2
-Text-to-Image Search: CLIP
-Programming Language: Python
-Image Processing: PIL
-Hardware Support: CPU / GPU
+---
 
-How to Run the Project
+## ⚙️ Technologies Used
 
-Step 1: Install Dependencies
+| Component | Technology |
+|---------|------------|
+| Image Classification | TensorFlow, Keras |
+| Model Architecture | MobileNetV2 |
+| Text-to-Image Search | CLIP |
+| Programming Language | Python |
+| Image Processing | PIL |
+| Hardware Support | CPU / GPU |
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-Step 2: Train the Image Classifier (Optional)
 
+2️⃣ Train the Image Classifier (Optional)
 python classifier_train.py
 
-Step 3: Predict Image Class
-
+3️⃣ Predict Image Class
 python classifier_predict.py
 
-Step 4: Run Text-to-Image Semantic Search
-
+4️⃣ Run Text-to-Image Semantic Search
 python text_image_search.py
 
-Scalability & Future Growth
+📈 Scalability & Future Growth
 
-• Precompute and store image embeddings
-• Integrate vector databases (FAISS / Pinecone)
-• Separate inference services for classification and search
-• Modular architecture for easy expansion
+Pre-compute and store image embeddings
 
-Current Limitations (Round 1)
+Integrate vector databases (FAISS / Pinecone)
 
-• Small dataset (hackathon constraint)
-• Command-line based interaction
-• No web interface
+Separate inference services for classification and semantic search
 
-Planned Improvements (Round 2)
+Modular architecture for easy extension
 
-• Web Interface using Flask or FastAPI
-• Multi-class image classification
-• Advanced text queries (attributes, actions, clothing)
-• Vector database integration
-• User upload and search history
-• Improved evaluation metrics
+⚠️ Current Limitations (Round 1)
 
-Originality & Innovation
+Small dataset due to hackathon constraints
 
-• Combines supervised image classification with zero-shot semantic search
-• Uses state-of-the-art CLIP model
-• Fully original pipeline design
-• No copied boilerplate or templates
+Command-line based interaction
 
-Team Information
+No web interface
+
+🔮 Planned Improvements (Round 2)
+
+Web interface using Flask / FastAPI
+
+Multi-class image classification
+
+Advanced text queries (attributes, actions, clothing)
+
+Vector database integration
+
+User upload and search history
+
+Improved evaluation metrics
+
+🏆 Originality & Innovation
+
+Combines supervised image classification with zero-shot semantic search
+
+Uses state-of-the-art CLIP model
+
+Fully original pipeline design
+
+No copied templates or boilerplate projects
+
+👥 Team Information
 
 Team Size: 4
 Hackathon: GEHU Himtal Hackathon
 
-License
+📜 License
 
 This project is developed for educational and hackathon purposes only.
+
+## 🗂️ Project Structure
+
