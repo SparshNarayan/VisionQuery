@@ -37,7 +37,7 @@ The system understands both visual content and human language, enabling accurate
 ## 🗂️ Project Structure
 Project Structure
 
-NEW FOLDER (2)
+AI_Image_classifier
 │
 ├── Dataset/
 │   ├── animal/                 # Animal images
