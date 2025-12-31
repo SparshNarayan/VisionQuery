@@ -49,20 +49,22 @@ Finds the most relevant image using CLIP embeddings
 
 Zero-shot learning (no retraining required)
 
-🗂️ Project Structure
+Project Structure
+
 NEW FOLDER (2)
-│
-├── Dataset/
-│   ├── animal/
-│   └── person/
-│
-├── classifier_train.py        # Train image classifier
-├── classifier_predict.py      # Predict class from image
-├── classifier_model.h5        # Trained model
-├── labels.txt                 # Class labels
-├── text_image_search.py       # CLIP-based semantic search
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
+|
+|-- Dataset/
+| |-- animal/ (Animal images)
+| |-- person/ (Person images)
+|
+|-- classifier_train.py (Train image classification model)
+|-- classifier_predict.py (Predict class from input image)
+|-- classifier_model.h5 (Trained MobileNetV2 model)
+|-- labels.txt (Class labels: Animal / Person)
+|
+|-- text_image_search.py (CLIP-based text-to-image semantic search)
+|-- requirements.txt (Project dependencies)
+|-- README.md (Project documentation)
 
 🔁 System Flow
 🖼️ Image Classification Flow
