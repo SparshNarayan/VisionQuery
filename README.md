@@ -36,19 +36,20 @@ The system understands both visual content and human language, enabling accurate
 ---
 ## 🗂️ Project Structure
 NEW FOLDER (2)
-|
-|-- Dataset/
-| |-- animal/ # Animal images
-| |-- person/ # Person images
-|
-|-- classifier_train.py # Train image classification model
-|-- classifier_predict.py # Predict class from input image
-|-- classifier_model.h5 # Trained MobileNetV2 model
-|-- labels.txt # Class labels (Animal / Person)
-|
-|-- text_image_search.py # CLIP-based semantic search
-|-- requirements.txt # Project dependencies
-└-- README.md # Project documentation
+│
+├── Dataset/
+│   ├── animal/                 # Animal images
+│   └── person/                 # Person images
+│
+├── classifier_train.py         # Train image classification model
+├── classifier_predict.py       # Predict class from input image
+├── classifier_model.h5         # Trained MobileNetV2 model
+├── labels.txt                  # Class labels (Animal / Person)
+│
+├── text_image_search.py        # CLIP-based semantic search
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+
 
 
 ---
