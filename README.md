@@ -35,6 +35,8 @@ The system understands both visual content and human language, enabling accurate
 
 ---
 ## 🗂️ Project Structure
+Project Structure
+
 NEW FOLDER (2)
 │
 ├── Dataset/
@@ -49,6 +51,7 @@ NEW FOLDER (2)
 ├── text_image_search.py        # CLIP-based semantic search
 ├── requirements.txt            # Project dependencies
 └── README.md                   # Project documentation
+
 
 
 
