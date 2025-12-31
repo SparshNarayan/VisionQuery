@@ -124,6 +124,26 @@ User
 | Hardware Support | CPU / GPU |
 
 ---
+📂 Dataset Source & Usage
+
+The dataset used in this project was collected from publicly available online sources for educational and hackathon purposes.
+
+Images were randomly selected from open internet sources.
+
+No private, sensitive, or copyrighted datasets were intentionally used.
+
+The dataset was manually organized into two categories:
+
+animal/
+
+person/
+
+The data is used only for model training, testing, and demonstration of the prototype.
+
+⚠️ Note:
+Due to hackathon time constraints and limited resources, the dataset size is relatively small. The current dataset is sufficient for demonstrating the working prototype, and a larger, more curated dataset will be used in future iterations.
+
+---
 
 ## ▶️ How to Run the Project
 
